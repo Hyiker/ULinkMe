@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ULinkMe"
+version = "0.1.0"
+description = "A cross-platform tool for automatically creating hard links recursively in real time for all files in a given folder."
+authors = ["Hyiker <hyikerhu0212@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Hyiker/ULinkMe"
+repository = "https://github.com/Hyiker/ULinkMe"
+keywords = ["watchdog", "link", "cli"]
+include = [
+    "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+watchdog = "^2.1.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.8.0", allow-prereleases = true}
+
+[tool.poetry.scripts]
+ulinkme = "ulinkme.main:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

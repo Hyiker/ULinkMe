@@ -1,0 +1,17 @@
+{
+    "log": {
+        "level": "debug"
+    },
+    "links": [
+        {
+            "target": "C:\\Users\\xxx\\target",
+            "name": "C:\\Users\\xxx\\name",
+            "recursive": true,
+            "events": [
+                "create",
+                "move",
+                "delete"
+            ]
+        }
+    ]
+}
