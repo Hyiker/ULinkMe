@@ -1,5 +1,7 @@
 ## ULinkMe
 
+![PyPI](https://img.shields.io/pypi/v/ulinkme?style=flat-square) ![GitHub](https://img.shields.io/github/license/Hyiker/ULinkMe?style=flat-square)
+
 一个用于自动为指定文件夹内的所有文件实时递归创建硬链接的跨平台工具
 
 A cross-platform tool for automatically creating hard links recursively in real time for all files in a given folder
